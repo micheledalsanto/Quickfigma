@@ -6,7 +6,7 @@ import rehypeSlug from "rehype-slug";
 import { visit } from "unist-util-visit";
 
 /**
- * Estrae la Table of Contents (TOC) dagli headings (#, ##, ##).
+ * Estrae la Table of Contents (TOC) dagli headings (#, ##, ###).
  * Usa rehype-slug per avere gli stessi id del rendering.
  */
 export async function extractTOC(markdown) {
