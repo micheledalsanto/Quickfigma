@@ -11,6 +11,8 @@
 [build.environment]
   # Node version for build
   NODE_VERSION = "18"
+  # Disable CI to show warnings
+  CI = "false"
 
 # Redirect rules for SPA routing
 [[redirects]]
